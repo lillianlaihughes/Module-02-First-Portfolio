@@ -16,6 +16,7 @@ footer {
     background-color: #6cc63e;
     color: #ffffff;
 }
+
 /* Navigation bar formatting */
 nav {
     padding-top: 10px;
@@ -45,13 +46,18 @@ li {
     margin-left: 25px;
 }
 
-a   {
-    color:#ffffff;
+a {
+    color: #ffffff;
+}
+
+.coming-soon {
+    border-radius: 400px;
 }
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .hero {
     height: 600px;
     width: 100%;
@@ -62,11 +68,12 @@ p {
 }
 
 .hero-text {
-    text-align:left;
+    text-align: left;
     color: whitesmoke;
     font-size: 100px;
 
 }
+
 .column-one {
     flex: 0 0 35%;
     background-image: url("../images/satsuma-face.JPG");
@@ -95,7 +102,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    header, main {
-      flex-direction: column;
+
+    header,
+    main {
+        flex-direction: column;
     }
 }
